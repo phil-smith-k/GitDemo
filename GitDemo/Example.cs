@@ -10,7 +10,7 @@ namespace GitDemo
     {
         public Example()
         {
-
+            Console.WriteLine("Isn't git fun?????????");
         }
 
         public Example(string example)
