@@ -10,7 +10,8 @@ namespace GitDemo
     {
         public Example()
         {
-            Console.WriteLine("Isn't git fun?????????");
+            var message = "Cookie";
+            Console.WriteLine($"{message} are good!");
         }
 
         public Example(string example)
