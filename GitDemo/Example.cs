@@ -12,6 +12,9 @@ namespace GitDemo
         {
             var message = "Cookie";
             Console.WriteLine($"{message} are good!");
+
+            // Resolved conflict 
+            Console.WriteLine("hello world");
         }
 
         public Example(string example)
