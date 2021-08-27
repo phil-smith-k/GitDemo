@@ -23,5 +23,24 @@ namespace GitDemo
         }
 
         public string ExampleProp { get; set; }
+
+        public virtual void MyMethod()
+        {
+            Console.Write("hello");
+        }
+
+        public override string ToString()
+        {
+            return $"{this.ExampleProp}";
+        }
     }
+
+    public class AnotherClass : Example 
+    {
+        public override void MyMethod()
+        {
+            Console.Write("Something example");
+        }
+    }
+
 }
